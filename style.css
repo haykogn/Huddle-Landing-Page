@@ -1,0 +1,135 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+
+/* Reset */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Main */
+body {
+    font: 15px 'Open Sans', sans-serif;
+    background: hsl(257, 40%, 49%) url(images/bg-desktop.svg) left/95% 100% no-repeat fixed;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.main {
+    color: #fff;
+    width: 450px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+.logo {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+
+.icons {
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 270px;
+}
+
+
+
+/* Rules */
+h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.submit {
+    border-radius: 30px;
+    outline: 0;
+    border: none;
+    width: 180px;
+    height: 50px;
+    color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(36,35,36,1);
+    -moz-box-shadow: 0px 2px 10px 0px rgba(36,35,36,1);
+    box-shadow: 0px 2px 10px 0px rgba(36,35,36,1);
+    background: #fff;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background: hsl(257, 40%, 49%);
+    color: #fff;
+}
+
+i {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid;
+    border-radius: 30px;
+}
+
+i:hover {
+    background: #fff;
+    color: hsl(257, 40%, 49%);;
+}
+
+.facebook {
+    padding: 10px 14px
+}
+
+
+
+/* Media Query */
+@media only screen and (max-width: 700px) {
+        body {
+            font: 15px 'Open Sans', sans-serif;
+            background: hsl(257, 40%, 49%) url(images/bg-mobile.svg) top/contain no-repeat;
+        }
+
+        .illustration {
+            width: 80%;
+        }
+
+        .main {
+            text-align: center;
+            width: 450px;
+            margin: 20px 20px;
+        }
+
+        .icons {
+            margin: 50px auto;
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo {
+            margin: 40px;
+        }
+
+        .logo img {
+            width: 50%;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+  }
